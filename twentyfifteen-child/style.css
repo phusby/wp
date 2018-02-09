@@ -1,0 +1,55 @@
+/*
+ Theme Name:   Twenty Fifteen Child
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  Twenty Fifteen Child Theme
+ Author:       John Doe
+ Author URI:   http://example.com
+ Template:     twentyfifteen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-fifteen-child
+*/
+	#quote {
+		background-color: white;
+		padding: 1.5em;
+		margin: 1em 8.3%;
+		font-family: arial;
+		font-size: 30px;
+	}
+#disclaimer {
+		background-color: rgba(125,125,125,1.00);
+	position: fixed;
+	color: white;
+	text-align: center;
+	width: 100vw;
+	height: 30px;
+	z-index: 999;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	}
+.custom-logo {
+	max-height: 100px!importanti;
+	max-width: 100px!important;
+}
+@media screen and (min-width: 38.75em) {
+#quote {
+	background-color: white;
+	color: black;
+	padding: 3em;
+	margin: 0 7.6923% 1em;
+}
+}
+
+@media screen and (min-width: 59.6875em) {
+#quote {
+	margin: 0 8.3333% 1em !important;
+	display: block !important;
+}
+}
+
+@media screen and (min-width: 5em) {
+#quote {
+	display: none;
+}
+}
