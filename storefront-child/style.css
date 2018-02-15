@@ -1,0 +1,32 @@
+/* 
+Theme Name: Storefront Child 
+Version: 1.0 
+Description: Child theme for Storefront. 
+Author: Woo
+Author URI: http://woocommerce.com 
+Template: storefront 
+*/  
+
+.widget-area {
+	padding-left: 40px;
+}
+.custom-logo {
+	padding-left: -2px;
+}
+.search-field {
+	border-radius: 10px;
+}
+#contactinformation {
+	height: 400px;
+	width: 100%;
+}
+#disclaimer {
+		background-color: rgba(125,125,125,1.00);
+	position: fixed;
+	color: white;
+	text-align: center;
+	width: 100vw;
+	height: 30px;
+	z-index: 999;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	}
