@@ -1,0 +1,58 @@
+/*
+Theme Name: Hestia Child
+Theme URI: https://www.themeisle.com/
+Description: This is a custom child theme I have created.
+Author: ThemeIsle
+URI: https://www.themeisle.com/
+Template: hestia    
+Version: 0.1
+*/
+body {
+	margin: 0;
+	padding:0;
+}
+.elementor-40 .elementor-element.elementor-element-ttbuahk {
+	background-image: url(lowpoly.svg);
+	padding-top: 90px!important;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.elementor-40 .elementor-element.elementor-element-invlspd .gallery {
+	background-color: white!important;
+	padding-bottom: 60px!important;
+}
+.elementor-40 .elementor-element.elementor-element-3b27017 {
+	background-color: white!important;
+}
+.elementor-40 .elementor-element.elementor-element-f4480dc {
+	background-image: url(lowpoly.svg);
+	padding-top: 95px!important;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.elementor-40 .elementor-element.elementor-element-96358e1 {
+	background-color: #EEEEEE!important;
+}
+.elementor-40 .elementor-element.elementor-element-f41caa6 {
+	background-color: #EEEEEE!important;
+}
+.elementor-40 .elementor-element.elementor-element-b13eedb {
+	background-color: #FFFFFF!important;
+	display: none;
+}
+.elementor-widget-heading .elementor-heading-title {
+	padding-bottom: 60px!important;
+}
+button {
+	background-color: #4173B8!important;
+	box-shadow: none!important;
+	
+}
+button:hover {
+	background-color: #67ABDE!important;
+	box-shadow: none!important;
+}
